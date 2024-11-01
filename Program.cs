@@ -83,7 +83,7 @@ namespace laber
 
             if (cictema != 10)
             {
-                Console.WriteLine("не десетичная ");
+                Console.WriteLine("не десятичная ");
                 int decemalNUm = Convert.ToInt32(refrech, cictema);
                 Console.WriteLine("Ваше значение в 10: " + Convert.ToString(decemalNUm));
                 string output = Convert.ToString(decemalNUm, l);
@@ -91,7 +91,7 @@ namespace laber
             }
             else
             {
-                Console.WriteLine("у вас десетичная ");
+                Console.WriteLine("у вас десятичная ");
                 string output = Convert.ToString(cictema, l);
                 Console.WriteLine("ваше число в " + l + output);
 
